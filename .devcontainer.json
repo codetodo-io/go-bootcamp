@@ -1,0 +1,12 @@
+{
+    "name": "Go Bootcamp Dev Container Definition",
+    "dockerComposeFile": ["./docker-compose-devcontainer.yml"],
+    "service": "go-bootcamp",
+    "initializeCommand": "scripts/devcontainer.sh up",
+    "workspaceFolder": "/go/src/github.com/codetodo-io/go-bootcamp",
+    "remoteEnv": { },
+    "extensions": [
+      "ms-vscode.cpptools",
+      "golang.go"
+    ]
+}
